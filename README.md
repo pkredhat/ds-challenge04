@@ -28,9 +28,9 @@
 * https://devfile.io/docs/2.2.2/adding-event-bindings
 
 ### What did we learn?
-* OpenShift DevSpaces reduces the Developers pain points. As a Developer, your life is getting simpler with the below
-    * Automatic Extensions (Language Support for Java(TM) by Red Hat) inclusion
+* OpenShift DevSpaces reduces the Developers pain points. As a Developer, your life is getting simpler with the below    
     * Automatic provisioning of required command line tools
+    * Ability to quickly and expediently scale resources
     * Consistent way of building, packaging and running the programs making faster iterative development
     * Consistent way of creating standardized end points for current and future testing
 * Now you can 
