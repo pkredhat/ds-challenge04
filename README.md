@@ -20,6 +20,8 @@
  
   ![ ](docs/images/challenge04.reload.jpg)
 
+  ![Alt text](docs/images/challenge04.reload.jpg)
+
 * After reloading when you run the task "1. Update dependencies", you will notice it is quicker
 * [Optional] Update a unit-test and re-run the test to see the difference in time
 
