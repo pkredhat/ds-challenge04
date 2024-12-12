@@ -4,12 +4,7 @@ metadata:
 components:
   - name: tools
     container:
-      image: registry.redhat.io/devspaces/udi-rhel8:3.17
-      memoryLimit: '2Gi'
-      memoryRequest: '1Gi'
-      cpuLimit: '1'
-      cpuRequest: '0.5'
-      mountSources: true
+      image: registry.redhat.io/devspaces/udi-rhel8:3.17      
       endpoints:
         - exposure: public
           name: 'greet-endpoint'
@@ -19,9 +14,6 @@ components:
       volumeMounts:
         - name: nuget
           path: /home/user/.nuget
-      # env:
-      #   - name: VSCODE_DEFAULT_WORKSPACE
-      #     value: "${PROJECTS_ROOT}/devspaces-gamification/ds-gamification.code-workspace"
   - name: nuget
     volume:
       size: 1G

@@ -10,7 +10,7 @@
 * Add constructs for Resources to the "tools" container
     * Memory    : [Request : 512MB          and Limit : 2Giga Bytes]
     * CPU       : [Request : 500millicore   and Limit : 2000 millicore] 
-* Add a "Post Start" event in the devfile to leverage the package command. 
+* Add a "Post Start" event in the devfile to leverage the 'Build' command. 
 
 
 ### Success Criteria
@@ -20,7 +20,8 @@
  
   ![ ](docs/images/challenge04.reload.jpg)
 
-* After reloading when you run the task "2. Start Development mode", you will notice it is quicker
+* After reloading when you run the task "1. Update dependencies", you will notice it is quicker
+* [Optional] Update a unit-test and re-run the test to see the difference in time
 
 ### Resources 
 * https://devfile.io/docs/2.2.2
