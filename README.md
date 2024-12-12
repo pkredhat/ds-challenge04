@@ -18,9 +18,7 @@
 * Reload the devspaces [Click the Arrows symbol(><) in the Bottom Left corner to open a new menu] with option "Restart Workspace from Local Devfile".
   > Due to the post start task, this process will take a while because the DevSpaces is downloading all the libraries. The UI is shown after the downloads are complete 
  
-  ![ ](docs/images/challenge04.reload.jpg)
-
-  ![Alt text](docs/images/challenge04.reload.jpg)
+  ![ ](docs/images/challenge04.reload.jpg)  
 
 * After reloading when you run the task "1. Update dependencies", you will notice it is quicker
 * [Optional] Update a unit-test and re-run the test to see the difference in time
