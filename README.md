@@ -5,7 +5,6 @@
 * This section will explore adding additional resources to the environment. There will be situations where a certain service testing needs more resources. In a traditional laptop, these type of resources may not be available either due to resource constraints or because the workload under test needs specific types of resources (example: GPUs). That forces the developers to either upgrade their laptops/desktops (which takes time) and or create a whole new setup on another machines. Let's see how we can avoid this pain point using DevSpaces
 
 ### Set Up + verification
-* In devspaces, Open a terminal. Run the below command to change the mvnw file to be executable
 * Refer to the Resources section and find out how to add memory and cpu requirements in devfile containers
 * Add constructs for Resources to the "tools" container
     * Memory    : [Request : 512MB          and Limit : 2Giga Bytes]
