@@ -1,7 +1,7 @@
 ## Challenge-04
 
 ### Scenario
-* Lets continue to built on top of ds-challenge-03
+* Lets continue to build on top of ds-challenge-03
 * This section will explore on adding additional resources to the environment. There will be situations where a certain service testing needs more resources. In a traditional laptop, these type of resources may not be available either due to resource constraints or because the workload under test needs specific types of resources (example: GPUs). That forces the developers to either upgrade their laptops/desktops (which takes time) and or create a whole new setup on another machines. Let's see how we can avoid this pain point using DevSpaces
 
 ### Set Up + verification
