@@ -23,14 +23,4 @@ public class Challenge04_Tests
         // Act
         // TODO
     }
-
-    [Fact]
-    public async Task Get_ChallengeMethod()
-    {
-        // Arrange
-        var controller = new ChallengeMethodController();
-
-        // Act
-        // TODO
-    }
 }
